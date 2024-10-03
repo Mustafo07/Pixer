@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./images/layer.svg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Pixer</title>
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <div data-aos="fade-down" data-aos-duration="1000" class="header">
+
+                <div class="header-logo-link">
+                    <a href="/">
+                        <img src="./images/layer.svg" alt="" width="58" height="20">
+                    </a>
+                </div>
+                <div class="header-list">
+                    <a class="header-link" href="/">Bosh sahifa</a>
+                    <div class="dropdown-menu">
+                        <div class="header-link service-content">Xizmatlar</div>
+                        <ul class="dropdown-menu__list">
+                            <li class="dropdown-menu__item">
+                                <a class="dropdown-menu__link" href="#">Vebsayt</a>
+                            </li>
+                            <li class="dropdown-menu__item">
+                                <a class="dropdown-menu__link" href="#">Telegram bot</a>
+                            </li>
+                            <li class="dropdown-menu__item">
+                                <a class="dropdown-menu__link" href="#">SMM</a>
+                            </li>
+                            <li class="dropdown-menu__item">
+                                <a class="dropdown-menu__link" href="#">Grafik dizayn</a>
+                            </li>
+                            <li class="dropdown-menu__item">
+                                <a class="dropdown-menu__link" href="#">CRM tizim</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="header-link" href="#">Portfolio</a>
+                    <a class="header-link" href="#">Jamoa</a>
+                    <a class="header-link" href="#">Blog</a>
+                    <a class="header-link" href="#">Kontaktlar</a>
+                    <a class="header-btn" href="tel:+998909213711">+998 90 921 37 11</a>
+                    <button onclick="handleModeBtnClick()" class="header-mone-btn">
+                        <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 22C17.5228 22 22 17.5228 22 12C22 11.5373 21.3065 11.4608 21.0672 11.8568C19.9289 13.7406 17.8615 15 15.5 15C11.9101 15 9 12.0899 9 8.5C9 6.13845 10.2594 4.07105 12.1432 2.93276C12.5392 2.69347 12.4627 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                fill="currentColor" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="site-main">
+        <section class="biznes-section">
+            <div class="container">
+                <div class="biznes">
+                    <div data-aos="fade-right" data-aos-duration="1500" class="biznes-content-wrapper">
+                        <h1>Biznesingizni keyingi bosqichga
+                            olib chiqing</h1>
+                        <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex,
+                            eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+                        <a href="#">Xizmatlar bilan tanishish</a>
+                    </div>
+                    <iframe class="biznes-frame" data-aos="fade-left" data-aos-duration="1500" width="458" height="258"
+                        src="https://www.youtube.com/embed/LIukMzVK3p4?si=qO7msoYBO4xU5EkI" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <section class="xizmat-section">
+            <div class="container">
+                <div data-aos="flip-left" data-aos-duration="1500" class="xizmat-text-wrapper">
+                    <h2>Xizmatlar</h2>
+                    <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget
+                        sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+                </div>
+                <ul data-aos="flip-down" data-aos-duration="1500" class="xizmat-list">
+                    <li class="xizmat-item">
+                        <img src="./images/xizmat-img1.svg" alt="" width="202" height="130">
+                        <h3>Vebsayt tuzish</h3>
+                        <strong>lorem ipsum</strong>
+                    </li>
+                    <li class="xizmat-item">
+                        <img src="./images/xizmat-img2.svg" alt="" width="202" height="130">
+                        <h3>Telegram bot</h3>
+                        <strong>lorem ipsum</strong>
+                    </li>
+                    <li class="xizmat-item">
+                        <img src="./images/xizmat-img3.svg" alt="" width="202" height="130">
+                        <h3>SMM</h3>
+                        <strong>lorem ipsum</strong>
+                    </li>
+                </ul>
+                <ul data-aos="flip-up" data-aos-duration="1500" class="xizmat-list">
+                    <li class="xizmat-item">
+                        <img src="./images/xizmat-img4.svg" alt="" width="202" height="130">
+                        <h3>Vebsayt tuzish</h3>
+                        <strong>lorem ipsum</strong>
+                    </li>
+                    <li class="xizmat-item">
+                        <img src="./images/xizmat-img5.svg" alt="" width="202" height="130">
+                        <h3>Telegram bot</h3>
+                        <strong>lorem ipsum</strong>
+                    </li>
+                </ul>
+                <div class="xizmat-link-group">
+                    <a data-aos="fade-up-right" data-aos-duration="1500" href="#">Buyurtma berish</a>
+                    <a data-aos="fade-up-left" data-aos-duration="1500" href="#">Xizmatlar sahifasiga o'tish</a>
+                </div>
+            </div>
+        </section>
+        <section class="ishlaymiz-section">
+            <div class="container">
+                <div data-aos="zoom-in" data-aos-duration="1500" class="text-wrapper">
+                    <h2 class="text-wrapper__title">Biz qanday ishlaymiz?</h2>
+                    <p class="text-wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam
+                        facilisis lacinia ex, eget
+                        sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+                </div>
+                <ul data-aos="flip-left" data-aos-duration="1500" class="ishlaymiz-list">
+                    <li class="ishlaymiz-list__item">
+                        <img src="./images/ishlaymiz-img1.png" alt="" width="300" height="278">
+                        <div class="text-content-wrapper">
+                            <h3 class="text-content-wrapper__subtitle">Talablarni aniqlab chiqamiz</h3>
+                            <p class="text-content-wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet
+                                quam arcu. Nam facilisis</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul data-aos="flip-right" data-aos-duration="1500" class="ishlaymiz-list">
+                    <li class="ishlaymiz-list__item">
+                        <div class="text-content-wrapper">
+                            <h3 class="text-content-wrapper__subtitle">Bir necha yechimlarni taklif qilamiz</h3>
+                            <p class="text-content-wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet
+                                quam arcu. Nam facilisis</p>
+                        </div>
+                        <img src="./images/ishlaymiz-img2.png" alt="" width="300" height="224">
+                    </li>
+                </ul>
+                <ul data-aos="flip-left" data-aos-duration="1500" class="ishlaymiz-list">
+                    <li class="ishlaymiz-list__item">
+                        <img src="./images/ishlaymiz-img3.png" alt="" width="300" height="258">
+                        <div class="text-content-wrapper">
+                            <h3 class="text-content-wrapper__subtitle">Loyiha uchun vaqt belgilaymiz</h3>
+                            <p class="text-content-wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet
+                                quam arcu. Nam facilisis</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul data-aos="flip-right" data-aos-duration="1500" class="ishlaymiz-list">
+                    <li class="ishlaymiz-list__item">
+                        <div class="text-content-wrapper">
+                            <h3 class="text-content-wrapper__subtitle">A'lo sifat bilan bajarib topshiramiz</h3>
+                            <p class="text-content-wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet
+                                quam arcu. Nam facilisis</p>
+                        </div>
+                        <img src="./images/ishlaymiz-img4.png" alt="" width="300" height="171">
+                    </li>
+                </ul>
+                <ul data-aos="flip-left" data-aos-duration="1500" class="ishlaymiz-list">
+                    <li class="ishlaymiz-list__item">
+                        <img src="./images/ishlaymiz-img5.png" alt="" width="300" height="232">
+                        <div class="text-content-wrapper">
+                            <h3 class="text-content-wrapper__subtitle">A'lo sifat bilan bajarib topshiramiz</h3>
+                            <p class="text-content-wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet
+                                quam arcu. Nam facilisis</p>
+                        </div>
+                    </li>
+                </ul>
+                <div data-aos="fade-up" data-aos-duration="1500" class="ishlaymiz-section-btn">
+                    <a class="ishlaymiz-section-btn__link" href="#">Buyurtma berish</a>
+                </div>
+            </div>
+        </section>
+        <section class="buyurtma-section">
+            <div class="container">
+                <div data-aos="zoom-in-right" data-aos-duration="1500" class="buyurtma-text-wrapper">
+                    <h2 class="buyurtma-text-wrapper__title">Buyurtma berish</h2>
+                    <p class="buyurtma-text-wrapper__text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam
+                        arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at
+                        sem pulvinar</p>
+                </div>
+                <form data-aos="zoom-in-up" data-aos-duration="1500" class="buyurtma-form" action="https://htmlacademy.ru/" method="post">
+                    <input class="buyurtma-form__input" type="text" placeholder="Ismingiz">
+                    <input class="buyurtma-form__input" type="tel" placeholder="Telefon raqamingiz">
+                    <select class="buyurtma-form__input" id="Xizmat turi" aria-placeholder="Xizmat turi">
+                        <option value="Xizmat turi">Xizmat turi</option>
+                        <option value="Xizmat turi">Stryoyka</option>
+                        <option value="Xizmat turi">Arxitektura</option>
+                        <option value="Xizmat turi">Biznes</option>
+                    </select>
+                    <div class="buyurtma-link-wrapper">
+                        <a class="buyurtma-link-wrapper__link" href="#">Buyurtma berish</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
